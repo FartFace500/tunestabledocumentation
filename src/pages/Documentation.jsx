@@ -26,6 +26,12 @@ const StyledDiv = styled.div`
     ul {
     padding-left: 25px;
     }
+
+    /* Slightly smaller text used below 480px */
+    @media (max-width: 480px) {
+        font-size: 0.7rem;
+        padding: 8px;
+    }
 `;
 
 const StyledList = styled.ul`
@@ -220,7 +226,7 @@ function Documentation() {
     "password": String,
     “roles”: [
                {
-                “name”: “USER”		// or ADMIN
+                “name”: “USER”	// or ADMIN
                }              
             ]
   }
