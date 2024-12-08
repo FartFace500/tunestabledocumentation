@@ -39,6 +39,9 @@ function MainLayout() {
     a {
       color: ${props => props.theme.linkColor};
     }
+
+    /* Improves readability on smaller screens */
+    padding: 5px;
     `;
 
     const ThemeButton = styled.button`

@@ -8,6 +8,13 @@ const StyledTable = styled.table`
         padding: 10px;
         border: 1px solid ${props => props.theme.textColor};
     }
+
+    /* Now the table is scrollable horizontally instead of the site */
+    @media (max-width: 970px) {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
     `;
 
 const StyledDiv = styled.div`
@@ -18,7 +25,7 @@ const StyledDiv = styled.div`
     padding: 10px;
     ul {
     padding-left: 25px;
-}
+    }
 `;
 
 const StyledList = styled.ul`
