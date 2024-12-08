@@ -125,7 +125,7 @@ function Documentation() {
                 <td>GET</td>
                 <td>/api/albums</td>
                 <td></td>
-                <td><StyledPre>{`[album, album, …] ](3)`}</StyledPre></td>
+                <td><StyledPre>{`[album, album, …](3)`}</StyledPre></td>
                 <td></td>
                 <td>Aynone User</td>
             </tr>
